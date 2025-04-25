@@ -1,0 +1,82 @@
+/* Responsive Styles for Astoria Pacific Website */
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .container {
+        width: 90%;
+    }
+    
+    /* Adjust navigation for tablets */
+    nav ul {
+        gap: 10px;
+    }
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    /* Header adjustments for mobile */
+    header .container {
+        flex-direction: column;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    /* Footer adjustments for mobile */
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-logo,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+    
+    .hero {
+        padding: 50px 0;
+    }
+    
+    .cta-section {
+        padding: 40px 0;
+    }
+}

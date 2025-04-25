@@ -1,0 +1,30 @@
+ASTORIA_PACIFIC/
+│
+├── index.html               # Home page
+├── services.html            # Services page
+├── case-studies.html        # Case studies/Customer examples
+├── dfam.html                # Design for Additive Manufacturing
+├── contact.html             # Contact page
+│
+├── assets/                  # All static assets
+│   ├── css/                 # Stylesheets
+│   │   ├── main.css         # Main stylesheet
+│   │   └── responsive.css   # Mobile responsiveness
+│   │
+│   ├── js/                  # JavaScript files (minimal)
+│   │   └── main.js          # Main JavaScript file
+│   │
+│   ├── images/              # Image files
+│   │   ├── logo/            # Company logos
+│   │   ├── hero/            # Hero/banner images
+│   │   ├── services/        # Services illustrations
+│   │   ├── case-studies/    # Case study images
+│   │   ├── dfam/            # DFAM illustrations
+│   │   └── icons/           # UI icons and ISO certification badges
+│   │
+│   └── fonts/               # Custom web fonts
+│
+└── includes/                # Reusable HTML components
+    ├── header.html          # Site header with navigation
+    ├── footer.html          # Site footer
+    └── cta.html             # Call-to-action component

@@ -1,0 +1,181 @@
+Required Images for Astoria Pacific Website
+Here's a comprehensive list of all images needed for the website, organized by location, filename, and purpose:
+Logo and Branding
+
+Company Logo
+
+Filename: assets/images/logo/astoria-pacific-logo.png
+Purpose: Main company logo shown in header and footer
+Format: PNG with transparent background
+
+
+
+Hero Section
+
+Hero Background
+
+Filename: assets/images/hero/hero-background.jpg
+Purpose: Background for hero section
+Format: High-quality JPG showing scientific/medical device environment
+
+
+
+Certification Badges
+
+ISO13485 Badge
+
+Filename: assets/images/icons/iso13485-badge.png
+Purpose: Certification badge for hero section
+Format: PNG with transparent background
+
+
+
+Feature Icons
+
+Quality Icon
+
+Filename: assets/images/icons/quality-icon.png
+Purpose: Icon for ISO13485 feature card
+Format: Simple PNG icon with transparent background
+
+
+Innovation Icon
+
+Filename: assets/images/icons/innovation-icon.png
+Purpose: Icon for Carbon 3D feature card
+Format: Simple PNG icon with transparent background
+
+
+Expertise Icon
+
+Filename: assets/images/icons/expertise-icon.png
+Purpose: Icon for Diagnostic Expertise feature card
+Format: Simple PNG icon with transparent background
+
+
+Support Icon
+
+Filename: assets/images/icons/support-icon.png
+Purpose: Icon for End-to-End Support feature card
+Format: Simple PNG icon with transparent background
+
+
+
+Materials Section Icons
+
+Temperature Icon
+
+Filename: assets/images/icons/temp-icon.png
+Purpose: Icon for temperature specification
+Format: Simple PNG icon with transparent background
+
+
+Autoclave Icon
+
+Filename: assets/images/icons/autoclave-icon.png
+Purpose: Icon for autoclave durability specification
+Format: Simple PNG icon with transparent background
+
+
+Chemical Icon
+
+Filename: assets/images/icons/chemical-icon.png
+Purpose: Icon for chemical compatibility specification
+Format: Simple PNG icon with transparent background
+
+
+Bio Icon
+
+Filename: assets/images/icons/bio-icon.png
+Purpose: Icon for biocompatibility specification
+Format: Simple PNG icon with transparent background
+
+
+NASA Icon
+
+Filename: assets/images/icons/nasa-icon.png
+Purpose: Icon for NASA ASTM E595 certification
+Format: Simple PNG icon with transparent background
+
+
+
+Materials Section
+
+Advanced Materials Image
+
+Filename: assets/images/materials/advanced-materials.jpg
+Purpose: Showcase of 3D printing materials
+Format: High-quality JPG showing material samples or printed parts
+
+
+
+Services Section
+
+Microfluidics Image
+
+Filename: assets/images/services/microfluidics.jpg
+Purpose: Visualization of microfluidic system
+Format: High-quality JPG showing printed microfluidic device
+
+
+Manifolds Image
+
+Filename: assets/images/services/manifolds.jpg
+Purpose: Visualization of complex manifold
+Format: High-quality JPG showing printed fluid manifold
+
+
+Diagnostic Device Image
+
+Filename: assets/images/services/diagnostic.jpg
+Purpose: Visualization of diagnostic components
+Format: High-quality JPG showing diagnostic device component
+
+
+
+Case Study Section
+
+Case Study Image
+
+Filename: assets/images/case-studies/diagnostic-device.jpg
+Purpose: Visualization of case study example
+Format: High-quality JPG showing diagnostic device with 3D printed components
+
+
+
+Partnership Section
+
+Carbon 3D Logo
+
+Filename: assets/images/partners/carbon3d-logo.png
+Purpose: Partnership logo
+Format: PNG with transparent background
+
+
+
+DFAM Section
+
+DFAM Comparison Image
+
+Filename: assets/images/dfam/dfam-comparison.jpg
+Purpose: Visual comparison of traditional vs. DFAM designs
+Format: High-quality JPG showing side-by-side comparison
+
+
+
+Image Specifications:
+
+All website images should be optimized for web (compressed without quality loss)
+Recommended dimensions:
+
+Logo: 180px × 60px
+Icons: 64px × 64px
+Service/case study images: 600px × 400px
+Feature images: 800px × 600px
+
+
+File formats:
+
+Photographs: JPG
+Graphics with transparency: PNG
+Icons: PNG with transparency

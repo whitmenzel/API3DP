@@ -1,0 +1,161 @@
+INDEX.HTML
+│
+├── HEAD
+│   ├── meta charset="UTF-8"
+│   ├── meta viewport
+│   ├── meta description
+│   ├── link stylesheet (main.css)
+│   ├── link stylesheet (responsive.css)
+│   ├── link Google Fonts (Roboto)
+│   └── title
+│
+├── BODY
+│   │
+│   ├── HEADER
+│   │   └── container
+│   │       ├── logo
+│   │       │   └── link to index.html with logo image
+│   │       └── nav
+│   │           └── ul (navigation links)
+│   │               ├── Home (active)
+│   │               ├── Services
+│   │               ├── Case Studies
+│   │               ├── DFAM
+│   │               └── Contact
+│   │
+│   ├── MAIN
+│   │   │
+│   │   ├── HERO SECTION
+│   │   │   └── container
+│   │   │       ├── h1 heading
+│   │   │       ├── p (description)
+│   │   │       ├── hero-buttons
+│   │   │       │   ├── button (Explore Services)
+│   │   │       │   └── button-alt (Request Consultation)
+│   │   │       └── hero-badge (ISO certification)
+│   │   │
+│   │   ├── FEATURES SECTION
+│   │   │   └── container
+│   │   │       ├── h2 heading
+│   │   │       └── features-grid
+│   │   │           ├── feature-card (ISO13485)
+│   │   │           │   ├── feature-icon
+│   │   │           │   ├── h3 heading
+│   │   │           │   └── p (description)
+│   │   │           ├── feature-card (Advanced 3D Printing)
+│   │   │           │   ├── feature-icon
+│   │   │           │   ├── h3 heading
+│   │   │           │   └── p (description)
+│   │   │           ├── feature-card (Fluidics Expertise)
+│   │   │           │   ├── feature-icon
+│   │   │           │   ├── h3 heading
+│   │   │           │   └── p (description)
+│   │   │           └── feature-card (End-to-End Support)
+│   │   │               ├── feature-icon
+│   │   │               ├── h3 heading
+│   │   │               └── p (description)
+│   │   │
+│   │   ├── SERVICES OVERVIEW SECTION
+│   │   │   └── container
+│   │   │       ├── section-header
+│   │   │       │   ├── h2 heading
+│   │   │       │   └── p (description)
+│   │   │       ├── services-grid
+│   │   │       │   ├── service-card (Microfluidic Systems)
+│   │   │       │   │   ├── img
+│   │   │       │   │   ├── h3 heading
+│   │   │       │   │   ├── p (description)
+│   │   │       │   │   └── service-link
+│   │   │       │   ├── service-card (Complex Manifolds)
+│   │   │       │   │   ├── img
+│   │   │       │   │   ├── h3 heading
+│   │   │       │   │   ├── p (description)
+│   │   │       │   │   └── service-link
+│   │   │       │   └── service-card (Diagnostic Platforms)
+│   │   │       │       ├── img
+│   │   │       │       ├── h3 heading
+│   │   │       │       ├── p (description)
+│   │   │       │       └── service-link
+│   │   │       └── services-cta
+│   │   │           └── button (View All Solutions)
+│   │   │
+│   │   ├── CASE STUDY HIGHLIGHT SECTION
+│   │   │   └── container
+│   │   │       └── case-study-content
+│   │   │           ├── case-study-text
+│   │   │           │   ├── tag (Technical Case Study)
+│   │   │           │   ├── h2 heading
+│   │   │           │   ├── p (description)
+│   │   │           │   ├── case-study-metrics
+│   │   │           │   │   ├── metric (Size Reduction)
+│   │   │           │   │   │   ├── metric-value (40%)
+│   │   │           │   │   │   └── metric-label
+│   │   │           │   │   ├── metric (Signal Amplification)
+│   │   │           │   │   │   ├── metric-value (3x)
+│   │   │           │   │   │   └── metric-label
+│   │   │           │   │   └── metric (Cost Efficiency)
+│   │   │           │   │       ├── metric-value (60%)
+│   │   │           │   │       └── metric-label
+│   │   │           │   └── button (View Technical Documentation)
+│   │   │           └── case-study-image
+│   │   │               └── img
+│   │   │
+│   │   ├── DFAM TEASER SECTION
+│   │   │   └── container
+│   │   │       ├── dfam-content
+│   │   │       │   ├── h2 heading
+│   │   │       │   ├── p (description)
+│   │   │       │   ├── dfam-benefits
+│   │   │       │   │   ├── li (benefit 1)
+│   │   │       │   │   ├── li (benefit 2)
+│   │   │       │   │   ├── li (benefit 3)
+│   │   │       │   │   └── li (benefit 4)
+│   │   │       │   └── button (Access DFAM Resources)
+│   │   │       └── dfam-image
+│   │   │           └── img
+│   │   │
+│   │   ├── TESTIMONIALS SECTION
+│   │   │   └── container
+│   │   │       ├── h2 heading
+│   │   │       └── testimonial-slider
+│   │   │           └── testimonial
+│   │   │               ├── testimonial-content
+│   │   │               │   └── p (quote)
+│   │   │               └── testimonial-author
+│   │   │                   └── p (author info)
+│   │   │
+│   │   └── CTA SECTION
+│   │       └── container
+│   │           ├── h2 heading
+│   │           ├── p (description)
+│   │           └── cta-button (Request Technical Consultation)
+│   │
+│   ├── FOOTER
+│   │   └── container
+│   │       ├── footer-content
+│   │       │   ├── footer-logo
+│   │       │   │   ├── img
+│   │       │   │   └── p (description)
+│   │       │   ├── footer-links (Solutions)
+│   │       │   │   ├── h4 heading
+│   │       │   │   └── ul
+│   │       │   │       ├── li (Microfluidic Systems)
+│   │       │   │       ├── li (Custom Manifolds)
+│   │       │   │       ├── li (Diagnostic Platforms)
+│   │       │   │       └── li (Custom Development)
+│   │       │   ├── footer-links (Resources)
+│   │       │   │   ├── h4 heading
+│   │       │   │   └── ul
+│   │       │   │       ├── li (Technical Case Studies)
+│   │       │   │       ├── li (DFAM Guidelines)
+│   │       │   │       ├── li (Material Specifications)
+│   │       │   │       └── li (Validation Protocols)
+│   │       │   └── footer-contact
+│   │       │       ├── h4 heading
+│   │       │       └── address (contact details)
+│   │       └── footer-bottom
+│   │           └── p (copyright)
+│   │
+│   └── SCRIPT (main.js)
+│
+└── END
