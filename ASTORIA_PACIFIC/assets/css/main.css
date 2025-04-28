@@ -185,22 +185,53 @@ nav ul li a.active {
     color: var(--light-text);
 }
 
-/* Hero Section - Improved Visibility */
+
+/* Hero Section - Slideshow */
 .hero {
     padding: 120px 0 100px;
-    background-color: var(--dark-bg);
     text-align: center;
     position: relative;
-    background-image: linear-gradient(to bottom, 
-                     rgba(18, 24, 36, 0.5), 
-                     rgba(18, 24, 36, 0.5)), 
-                     url('../images/hero/hero-background.jpg');
-    background-size: cover;
-    background-position: center;
     overflow: hidden;
+    background-color: var(--dark-bg);
 }
 
-.hero:before {
+.hero-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 3s ease;
+    z-index: 0;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+.hero-slide:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 24, 36, 0.7); /* Dark overlay for readability */
+}
+
+.hero-slide:after {
     content: '';
     position: absolute;
     top: 0;
@@ -212,7 +243,6 @@ nav ul li a.active {
                 rgba(18, 24, 36, 0) 70%);
 }
 
-/* Rest of hero styling remains the same */
 .hero h1 {
     margin-bottom: 20px;
     font-size: 3rem;
@@ -242,6 +272,35 @@ nav ul li a.active {
     position: relative;
     z-index: 2;
 }
+
+.button-alt {
+    background-color: transparent;
+    color: var(--light-text);
+    border: 2px solid var(--primary-color);
+}
+
+.button-alt:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-bg);
+    border-color: var(--primary-color);
+}
+
+.hero-badge {
+    margin: 20px auto;
+    max-width: 150px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-badge:hover {
+    opacity: 1;
+}
+
+
+
+
 
 .button-alt {
     background-color: transparent;
@@ -997,4 +1056,27 @@ footer {
         grid-template-columns: 1fr;
         gap: 40px;
     }
+}
+
+/* Footer Badge Styling */
+.footer-badge {
+    margin: 20px auto;
+    max-width: 120px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-badge:hover {
+    opacity: 1;
+}
+
+.footer-badge img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-bottom .footer-badge {
+    margin-bottom: 20px;
 }

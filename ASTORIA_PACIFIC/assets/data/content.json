@@ -1,0 +1,270 @@
+{
+    "meta": {
+      "siteTitle": "Astoria Pacific - 3D Printed Fluidics Specialists",
+      "siteDescription": "Astoria Pacific - ISO13485 certified specialists in 3D printed fluidics and medical devices",
+      "companyName": "Astoria Pacific, Inc.",
+      "companyTagline": "ISO13485 certified specialists in 3D printed fluidics and medical device manufacturing",
+      "copyrightYear": "2025"
+    },
+    "navigation": {
+      "main": [
+        {
+          "id": "nav-home",
+          "label": "Home",
+          "url": "index.html"
+        },
+        {
+          "id": "nav-services",
+          "label": "Services",
+          "url": "services.html"
+        },
+        {
+          "id": "nav-case-studies",
+          "label": "Case Studies",
+          "url": "case-studies.html"
+        },
+        {
+          "id": "nav-dfam",
+          "label": "DFAM",
+          "url": "dfam.html"
+        },
+        {
+          "id": "nav-contact",
+          "label": "Contact",
+          "url": "contact.html"
+        }
+      ]
+    },
+    "homePage": {
+      "hero": {
+        "heading": "Fluidic and medical device 3D printing in our ISO13485 certified print facility",
+        "subheading": "Leveraging decades of medical device manufacturing experience Astoria-pacific is now offering customers acces to our printing capabilities. Astoria pacific has years of experice printing parts for our invitro medical diagnostic equipment. We print UL94V-0 rated materials for electrical and optical component houseings and direct chemistry contact fluidics. ",
+        "buttons": [
+          {
+            "label": "Explore Services",
+            "url": "services.html",
+            "class": "button"
+          },
+          {
+            "label": "Request Consultation",
+            "url": "contact.html",
+            "class": "button button-alt"
+          }
+        ]
+      },
+      "features": {
+        "heading": "Medical-Grade Manufacturing Excellence",
+        "items": [
+          {
+            "title": "ISO13485 Certified",
+            "text": "Our facility maintains rigorous quality management systems with 10+ years of experience incorporating 3D printed components in medical diagnostic devices.",
+            "icon": "assets/images/icons/quality-icon.svg"
+          },
+          {
+            "title": "Carbon 3D Partner",
+            "text": "As a certified Carbon 3D partner, we utilize CLIP technology for end-use production parts, with seamless scaling from prototyping to full production quantities.",
+            "icon": "assets/images/icons/innovation-icon.svg"
+          },
+          {
+            "title": "Diagnostic Expertise",
+            "text": "Decades of experience designing and manufacturing in-vitro medical diagnostic devices, with specialized knowledge in fluid handling systems.",
+            "icon": "assets/images/icons/expertise-icon.svg"
+          },
+          {
+            "title": "End-to-End Support",
+            "text": "Comprehensive engineering and manufacturing services from concept through production, all within our ISO 13485 certified quality system.",
+            "icon": "assets/images/icons/support-icon.svg"
+          }
+        ]
+      },
+      "materials": {
+        "heading": "Advanced Engineering Materials",
+        "subheading": "Field-proven materials for critical medical and diagnostic applications",
+        "specs": [
+          {
+            "name": "Operating Range",
+            "value": "-40°C to 125°C temperature stability",
+            "icon": "assets/images/icons/temp-icon.png"
+          },
+          {
+            "name": "Durability",
+            "value": "Withstands 100s of autoclave cycles",
+            "icon": "assets/images/icons/autoclave-icon.png"
+          },
+          {
+            "name": "Chemical Compatibility",
+            "value": "Polar and non-polar solvent resistant options",
+            "icon": "assets/images/icons/chemical-icon.png"
+          },
+          {
+            "name": "Biocompatibility",
+            "value": "Skin-safe and biocompatible material options",
+            "icon": "assets/images/icons/bio-icon.png"
+          },
+          {
+            "name": "Certified Performance",
+            "value": "NASA ASTM E595 certified materials for low outgassing",
+            "icon": "assets/images/icons/nasa-icon.png"
+          }
+        ],
+        "button": {
+          "label": "View Material Specifications",
+          "url": "services.html#materials"
+        }
+      },
+      "services": {
+        "heading": "Precision Fluidic Solutions",
+        "subheading": "Advanced 3D printed components with direct experience in reagent contact applications",
+        "items": [
+          {
+            "title": "Microfluidic Systems",
+            "text": "Precision-engineered microchannels and reaction chambers for diagnostic applications, with novel techniques for printing long internal channels.",
+            "image": "assets/images/services/microfluidics.jpg",
+            "link": {
+              "label": "View specifications",
+              "url": "services.html#microfluidics"
+            }
+          },
+          {
+            "title": "Complex Manifolds",
+            "text": "Multi-input fluid routing systems with integrated valving and channel geometries impossible to manufacture with traditional methods.",
+            "image": "assets/images/services/manifolds.jpg",
+            "link": {
+              "label": "View specifications",
+              "url": "services.html#manifolds"
+            }
+          },
+          {
+            "title": "Diagnostic Components",
+            "text": "Specialized components for in-vitro diagnostic devices, with proven field performance in direct contact with reagents and reactions.",
+            "image": "assets/images/services/diagnostic.jpg",
+            "link": {
+              "label": "View specifications",
+              "url": "services.html#diagnostic"
+            }
+          }
+        ],
+        "ctaButton": {
+          "label": "View All Solutions",
+          "url": "services.html"
+        }
+      },
+      "caseStudy": {
+        "tag": "Technical Case Study",
+        "heading": "Revolutionizing Diagnostic Device Manufacturing",
+        "text": "Learn how our ISO13485 certified 3D printing process enabled a leading diagnostic company to integrate complex fluidic channels, reducing assembly steps while improving performance and reliability.",
+        "metrics": [
+          {
+            "value": "40%",
+            "label": "Size Reduction"
+          },
+          {
+            "value": "75%",
+            "label": "Fewer Components"
+          },
+          {
+            "value": "60%",
+            "label": "Cost Savings"
+          }
+        ],
+        "button": {
+          "label": "View Technical Documentation",
+          "url": "case-studies.html"
+        },
+        "image": "assets/images/case-studies/diagnostic-device.jpg"
+      },
+      "partnership": {
+        "heading": "Carbon 3D Certified Partner",
+        "text": "Leverage the full capabilities of Carbon's revolutionary CLIP technology for your medical device components",
+        "benefits": [
+          "Scale seamlessly from prototyping to full production quantities",
+          "Consistent part quality across production runs",
+          "Advanced engineering materials designed for critical end-use applications",
+          "ISO13485 certified manufacturing processes"
+        ],
+        "button": {
+          "label": "Learn About Carbon 3D Technology",
+          "url": "services.html#carbon"
+        },
+        "logo": "assets/images/partners/carbon3d-logo.png"
+      },
+      "dfam": {
+        "heading": "Design for Additive Manufacturing",
+        "text": "Optimize fluid handling systems with our specialized 3D printing expertise",
+        "benefits": [
+          "Eliminate assembly points and potential leak paths with monolithic designs",
+          "Create complex internal geometries not possible with traditional manufacturing",
+          "Optimize fluid flow with novel channel designs",
+          "Integrate multiple functions within a single component"
+        ],
+        "button": {
+          "label": "Access DFAM Resources",
+          "url": "dfam.html"
+        },
+        "image": "assets/images/dfam/dfam-comparison.jpg"
+      },
+      "testimonial": {
+        "heading": "Industry Validation",
+        "quote": "Astoria Pacific's ISO13485 certified 3D printing services allowed us to integrate complex fluid handling directly into our diagnostic device. Their materials expertise and medical device manufacturing experience were invaluable to our product development process.",
+        "author": "Director of Engineering | Leading IVD Manufacturer"
+      },
+      "cta": {
+        "heading": "Transform Your Medical Device Design",
+        "text": "Discuss your project with our ISO13485 certified engineering team",
+        "button": {
+          "label": "Request Consultation",
+          "url": "contact.html"
+        }
+      }
+    },
+    "footer": {
+      "companyDescription": "ISO13485 certified specialists in 3D printed fluidics and medical device manufacturing",
+      "solutions": {
+        "heading": "Solutions",
+        "links": [
+          {
+            "label": "Microfluidic Systems",
+            "url": "services.html#microfluidics"
+          },
+          {
+            "label": "Complex Manifolds",
+            "url": "services.html#manifolds"
+          },
+          {
+            "label": "Diagnostic Components",
+            "url": "services.html#diagnostic"
+          },
+          {
+            "label": "Custom Development",
+            "url": "services.html#custom"
+          }
+        ]
+      },
+      "resources": {
+        "heading": "Resources",
+        "links": [
+          {
+            "label": "Technical Case Studies",
+            "url": "case-studies.html"
+          },
+          {
+            "label": "DFAM Guidelines",
+            "url": "dfam.html"
+          },
+          {
+            "label": "Material Specifications",
+            "url": "services.html#materials"
+          },
+          {
+            "label": "Quality Certifications",
+            "url": "services.html#quality"
+          }
+        ]
+      },
+      "contact": {
+        "heading": "Contact",
+        "info": "Astoria Pacific, Inc.\nStreet Address\nCity, State ZIP\nPhone: (XXX) XXX-XXXX\nEmail: info@astoriapacific.com"
+      },
+      "copyright": "&copy; 2025 Astoria Pacific, Inc. All rights reserved."
+    }
+  }
